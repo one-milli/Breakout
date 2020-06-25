@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 519677648}
   - component: {fileID: 519677647}
   - component: {fileID: 519677650}
+  - component: {fileID: 519677651}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -285,6 +286,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 437fd68a96604ee71945e8c91cb3e6b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &519677651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519677645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e7bef83619d154eadc6ac00adec36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 0
+  S: 0
+  H_: 1
 --- !u!1 &527197316
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,6 +547,7 @@ GameObject:
   - component: {fileID: 738891780}
   - component: {fileID: 738891779}
   - component: {fileID: 738891778}
+  - component: {fileID: 738891781}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -610,6 +627,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738891776}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &738891781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738891776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e7bef83619d154eadc6ac00adec36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 0
+  S: 0
+  H_: 1
 --- !u!1 &767998070
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,6 +775,7 @@ GameObject:
   - component: {fileID: 781455473}
   - component: {fileID: 781455472}
   - component: {fileID: 781455471}
+  - component: {fileID: 781455474}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -822,6 +855,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781455469}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &781455474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781455469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e7bef83619d154eadc6ac00adec36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 0
+  S: 0
+  H_: 1
 --- !u!1 &1066032985
 GameObject:
   m_ObjectHideFlags: 0
@@ -915,6 +963,7 @@ GameObject:
   - component: {fileID: 1376671567}
   - component: {fileID: 1376671566}
   - component: {fileID: 1376671565}
+  - component: {fileID: 1376671568}
   m_Layer: 0
   m_Name: Kabe
   m_TagString: Untagged
@@ -994,6 +1043,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376671563}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1376671568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376671563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e7bef83619d154eadc6ac00adec36a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  H: 0
+  S: 0
+  H_: 1
 --- !u!1 &1400771474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1159,6 +1223,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1564860296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564860299}
+  - component: {fileID: 1564860298}
+  - component: {fileID: 1564860297}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1564860297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564860296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1564860298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564860296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1564860299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564860296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1685685646
 GameObject:
