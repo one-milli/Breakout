@@ -5,23 +5,26 @@ using UnityEngine.UI;
 
 public class new_ball : MonoBehaviour
 {
-    public GameObject ball2;
+    public static bool LAUNCH = false;
+    public static bool SET = false;
+    public static float nowTime;
+    public GameObject NewBall;
     // Start is called before the first frame update
-    public static int cnt = 0;
     void Start()
     {
-        ball2.SetActive(false);
-        cnt = 0;
+        nowTime = 0;
+        NewBall.SetActive(false);
     }
-
     void Update()
     {
-        if (cnt == 600)
+        nowTime += Time.deltaTime;
+        if (nowTime >= 30) LAUNCH = true;
+        NewBall.SetActive(LAUNCH);
+        if(LAUNCH && !SET)
         {
-            ball2.SetActive(true);
             transform.eulerAngles = new Vector3(0, Random.Range(30, 120), 0);
-            gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * 500);
+            NewBall.GetComponent<Rigidbody>().AddForce(transform.forward * 500);
+            SET = true;
         }
-        cnt++;
     }
 }
