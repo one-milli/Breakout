@@ -18,14 +18,14 @@ public class Controller : MonoBehaviour
         {
             if (transform.position.z < 4)
             {
-                transform.position += transform.forward * 0.15f;
+                transform.position += transform.forward * 0.2f;
             }
         }
         else if (Input.GetKey(KeyCode.D))
         {
             if (transform.position.z > -4)
             {
-                transform.position -= transform.forward * 0.15f;
+                transform.position -= transform.forward * 0.2f;
             }
         }
     }
